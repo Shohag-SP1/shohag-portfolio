@@ -10,10 +10,12 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .division{
     width: 50%;
     padding-left: 2%;
+    margin-left: 10px;
    
 }
 .division img{
@@ -23,11 +25,17 @@ section{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 40px;
     color: white;
     font-weight: 700;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 20px;
 }
